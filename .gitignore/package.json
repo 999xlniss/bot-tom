@@ -1,13 +1,8 @@
 {
   "name": "bot-tom",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "main.js",
-  "node": "10.3.0",
-  "engines": {
-    "node": "10.3.0"
-  }
-} 
   "dependencies": {
     "discord.js": "^11.4.2",
     "express": "file:node_modules/express"
@@ -19,3 +14,4 @@
   "author": "999alnis cia",
   "license": "ISC"
 }
+
