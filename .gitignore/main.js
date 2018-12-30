@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefixe = ('/');
 
-client.login('bot.login(process.env.TOKEN)');
+client.login(process.env.TOKEN);
 
 client.on('message', msg => {
     if (msg.content === prefixe + 'help')
